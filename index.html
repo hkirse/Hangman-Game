@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hangman</title>
+		<!-- Link to Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- link to google font -->
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rammetto+One" rel="stylesheet">
+		<!-- Link to css sheets -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	</head>
+	<body>
+		<div id="main-content">
+			<div id="title">
+				<h1>Chicken Coop Hang Man</h1>
+			</div>
+
+<!-- Images at top spaced out in 3 columns using bootstrap-->
+<div class = "containter">
+    <div class = "row">
+
+        <div class="col-md-4">
+            <div class = "chickenImage">
+              <img src=".\assets\images\chicken.jpg" class="rounded float-left" alt="chicken">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class = "chickenCoopImage">
+                <img src=".\assets\images\chickenCoop.jpg" class="rounded float-center" alt="Chicken Coop" width="100%">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class = "foxImage">
+          <img src=".\assets\images\fox.jpg" class="rounded float-right" alt="fox">
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Start of second column containing all Javascript separated into the 3 rows -->
+<div class = "containter2">
+    <div class = "row">
+
+        <div class="col-md-4">
+			<div id="instruction">
+				
+				<p>Press any key to begin</p>
+				<pre><h2><div class="alert-line">'Press Any Key To Start'</div></h2></pre>
+				
+			</div>
+
+			<div id=alerts>
+				<pre><h2><div class="alert-line"></div></h2></pre>
+				
+			</div>
+		</div>
+	
+		<div class="col-md-4">
+			<div id="game-div" class="panel">
+				<div id="word-display">
+					<p id="word-display-letters"></p>
+				</div>
+
+				<div id="general-display">
+					<pre><p>Guessed-Letters</p></pre>
+					<pre><p><span id="guessed-letters"></span></p></pre>
+					<pre><p>Stats</p></pre>
+					<pre><p>Incorrect Letters: <span id="error-count"></span></p></pre>
+					<pre><p>Wins: <span id="win-count"></span></p></pre>
+					<pre><p>Losses: <span id="loss-count"></span></p></pre>
+					
+				</div>
+				<script type="text/javascript" src="./assets/javascript/game.js"></script>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<p>You have 9 pieces of wire holding back the fox from your chickens</p>
+			<div class = "chickenDoorImage">
+<!--Would like to run if statements with these images to over-ride one another to display the gate wire lessening with each incorrect response -->			
+				<img src=".\assets\images\chickenHangMan1.jpg" class="rounded float-center" alt="Chicken Coop" width="200px" height="200px">
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>

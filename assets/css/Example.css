@@ -1,0 +1,63 @@
+/*background image*/
+body {
+    background-image: url("../images/wormz.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Game Header */
+h1 {
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    color: blue;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}
+#title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#instruction, #alerts {
+	text-align: center;
+	font-size: 12px;
+}
+
+#main-content {
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+
+.panel {
+	background-color: #282828;
+	padding: 20px;
+	margin: 10px;
+}
+
+#word-display {
+	text-align: center;
+	font-size: 32px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#general-display {
+	text-align: center;
+	font-size: 16px;
+}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog

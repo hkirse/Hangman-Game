@@ -1,0 +1,47 @@
+/*background image*/
+body {
+    background-image: url("../images/wormz.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Game Header */
+h1 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    color: blue; 
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}
+
+.chickenCoopImage {
+    padding: 20px
+}
+
+.chickenImage {
+    padding: 20px;
+}
+
+.foxImage {
+    padding: 20px;
+}
+
+.chickenDoorImage{
+    padding:20px;
+}
+
